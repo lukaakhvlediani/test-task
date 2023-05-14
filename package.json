@@ -3,11 +3,19 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "next": "latest",
     "react": "18.2.0",
     "react-dom": "18.2.0"
+  },
+  "name": "my-app",
+  "version": "0.1.0",
+  "homepage": "http://lukaakhvlediani.github.io/test-task",
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
