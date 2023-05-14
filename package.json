@@ -1,11 +1,12 @@
 {
   "private": true,
   "scripts": {
+    "export": "next export",
     "dev": "next dev",
     "build": "next build && next export",
     "start": "next start",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d out"
+    "deploy": "gh-pages -d out -t true "
   },
   "dependencies": {
     "next": "latest",
@@ -18,4 +19,5 @@
   "devDependencies": {
     "gh-pages": "^5.0.0"
   }
+  
 }

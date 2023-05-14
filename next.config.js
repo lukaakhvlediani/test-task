@@ -1,4 +1,3 @@
 module.exports = {
-    basePath: '/test-task',
-    assetPrefix: '/test-task/',
-  }
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/{repository}' : '',
+}

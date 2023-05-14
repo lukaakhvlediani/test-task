@@ -2,8 +2,8 @@ import { useState } from "react";
 import router from "next/router";
 import styles from "../styles/Formpage.module.css";
 import Stepper from "../components/Stepper";
-import Link from 'next/link';
-export default function FormPage({ currentStep }) {
+
+export default function FormPage() {
   const [formData, setFormData] = useState({
     projectName: "",
     projectUrl: "",
