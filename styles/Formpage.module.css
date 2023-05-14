@@ -1,6 +1,4 @@
-/* Formpage.module.css */
 
-  
   .heading {
     font-size:  20px;
     color: #2B8CE6;
@@ -62,7 +60,7 @@ font-size: 32px;
     transition-duration: 0.4s;
     cursor: pointer;
     border-radius: 15px;
-    width: auto; /* Add this */
+    width: auto;
     
   }
   
@@ -100,7 +98,7 @@ font-size: 32px;
     width: 100%;
     height: 100vh;
     background-color:#101313;
-    padding-left: 260px;  /* add a padding equivalent to the width of the stepper */
+    padding-left: 260px;  
   }
   
   .formContainer {
@@ -144,16 +142,15 @@ font-size: 32px;
     width:170px;
     height: 150px;
     left: 0px;
-    bottom: -70px; /* Adjust to position the top half of the oval */
+    bottom: -70px; 
     background: linear-gradient(280.87deg, #87F696 45.45%, #00FFFF 50.25%, #9C16EF 60.03%, #4200FF 70.43%);
     opacity: 1;
     filter: blur(50px);
   
     z-index: -1;
   }
-/* Add these styles to your Formpage.module.css file */
 
-/* Styles for your new heading */
+
 .radioheading{
     font-family: 'Space Grotesk', sans-serif;
     font-style: normal;
@@ -164,7 +161,7 @@ font-size: 32px;
     
 }
 
-/* Styles for your radio buttons */
+
 .radioGroup {
 display: flex;
 flex-direction: column;
@@ -185,7 +182,7 @@ align-items: flex-end;
     color: #FFFFFF;
 }
 
-/* Add this to your Formpage.module.css file */
+
 
 .radioGroup input[type="radio"] {
     appearance: none;
@@ -218,7 +215,7 @@ align-items: flex-end;
 }
 
 
-/* Styles for your back button */
+
 .backButton {
     font-family: 'Space Grotesk';
     font-style: normal;
@@ -235,7 +232,7 @@ align-items: flex-end;
     margin-top: 15px;
 }
 
-/* Styles for your continue button */
+
 .continueButton {
     font-family: 'Space Grotesk';
     font-style: normal;
