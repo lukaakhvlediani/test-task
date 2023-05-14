@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import styles from "../styles/ListPage.module.css";
+import styles from "../styles/Listpage.module.css";
 export default function ListPage() {
   const [data,setData] = useState()
 useEffect(() => {
