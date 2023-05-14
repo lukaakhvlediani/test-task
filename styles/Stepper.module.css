@@ -1,0 +1,79 @@
+.stepper {
+    display: flex;
+    flex-direction: column;
+  
+  }
+  
+  .step {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+ 
+    
+  }
+  
+  .step:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    margin-left: 4px;
+    top: 30px;
+    width: 1px;
+    height: 35px;
+    background-color:  grey;
+ 
+  }
+  .step.active:not(:last-child)::after {
+    
+    position: absolute;
+    background-color: #2B8CE5;
+}
+  
+  .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin-right: 10px;
+  }
+  
+
+  .active {
+    background-color:  #2B8CE5;
+  
+  }
+  
+  .label {
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.3);
+  }
+  
+  .activeLabel {
+    color: #FFFFFF;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .stepper {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      gap: 70px;
+    }
+  
+    .step {
+      flex-direction: column;
+    }
+  
+    .step:not(:last-child)::after {
+      left: 20px;
+      top: 50%;
+      height: 1px;
+      width: 60px;
+    }
+  
+    .label {
+      display: none;
+    }
+  }
+  

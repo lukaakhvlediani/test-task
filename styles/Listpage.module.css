@@ -1,0 +1,29 @@
+
+.listContainer {
+    padding: 20px;
+    max-width: 360px;
+    margin: auto;
+    color: #2B8CE6;
+  }
+  
+  .projectContainer {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+  
+  .projectContainer h2 {
+    margin-bottom: 10px;
+    color: #FFFFFF;
+    font-size: 18px;
+  }
+  
+  .projectContainer p {
+    margin-bottom: 10px;
+    color: #FFFFFF;
+    font-size: 14px;
+  }
+.header{
+    color: #2B8CE6!important;
+}  
